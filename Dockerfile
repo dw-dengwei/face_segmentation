@@ -1,5 +1,5 @@
-# FROM bvlc/caffe:gpu
-FROM bvlc/caffe:cpu
+FROM bvlc/caffe:gpu
+# FROM bvlc/caffe:cpu
 
 
 RUN apt-get -y update

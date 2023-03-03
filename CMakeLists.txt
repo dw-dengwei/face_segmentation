@@ -1,3 +1,6 @@
+# If you installed the library there
+list (APPEND CMAKE_PREFIX_PATH "/home/dw/.local/share/caffe/")
+#set(OpenCV_DIR /usr/local/opencv/lib/cmake/opencv4)
 cmake_minimum_required(VERSION 3.4)
 project(face_segmentation)
 
@@ -25,7 +28,7 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 # Optional 3rd party components
 # ===================================================
 option(WITH_BOOST_STATIC "Boost static libraries" ON)
-option(WITH_FIND_FACE_LANDMARKS "Find Face Landmarks library" ON)
+option(WITH_FIND_FACE_LANDMARKS "Find Face Landmarks library" OFF)
 
 # Build components
 # ===================================================

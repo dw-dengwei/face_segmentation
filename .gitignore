@@ -8,3 +8,7 @@ build
 ./data/*.prototxt
 *.caffemodel
 *.prototxt
+output/*
+input/*
+__pycache__
+data/
